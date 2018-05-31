@@ -5,7 +5,7 @@ const d3 = require('d3')
 const topojson = require('topojson')
 
 module.exports.plot = (event, context, callback) => {
-  const us = require('./us-states.json')
+  const us = require('./us.json')
 
   // adapted from: https://bl.ocks.org/mbostock/6406992
   var options = {
@@ -13,7 +13,7 @@ module.exports.plot = (event, context, callback) => {
     d3Module: d3
   }
   var d3n = new D3Node(options)
-  
+
   var width = 960,
     height = 500
 
