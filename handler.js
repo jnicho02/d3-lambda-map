@@ -17,8 +17,10 @@ module.exports.plot = (event, context, callback) => {
   var width = 960,
     height = 500
 
+  var projection = d3.geoMercator()
+
   var path = d3.geoPath()
-    .projection(null)
+    .projection(projection)
 
   var svg = d3n.createSVG(width, height)
 
