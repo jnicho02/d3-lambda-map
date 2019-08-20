@@ -14,8 +14,8 @@ module.exports.plot = (event, context, callback) => {
   }
   var d3n = new D3Node(options)
 
-  var width = 960,
-    height = 500
+  var width = 1960,
+    height = 1500
 
   var projection = d3.geoMercator()
 

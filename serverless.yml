@@ -16,5 +16,45 @@ functions:
           headers:
               Content-Type: text/html
 
+package:
+  include:
+    - handler.js
+    - us.json
+    - node_modules/d3/**
+    - node_modules/d3-geo/**
+    - node_modules/d3-node/**
+    - node_modules/jsdom/**
+    - node_modules/tough-cookie/**
+    - node_modules/content-type-parser/**
+    - node_modules/whatwg-url/**
+    - node_modules/tr46/**
+    - node_modules/symbol-tree/**
+    - node_modules/nwmatcher/**
+    - node_modules/parse5/**
+    - node_modules/webidl-conversions/**
+    - node_modules/cssstyle/**
+    - node_modules/cssom/**
+    - node_modules/abab/**
+    - node_modules/whatwg-encoding/**
+    - node_modules/request/**
+    - node_modules/extend/**
+    - node_modules/json-stringify-safe/**
+    - node_modules/safe-buffer/**
+    - node_modules/aws-sign2/**
+    - node_modules/aws4/**
+    - node_modules/http-signature/**
+    - node_modules/assert-plus/**
+    - node_modules/sshpk/**
+    - node_modules/asn1/**
+    - node_modules/jsprim/**
+    - node_modules/extsprintf/**
+    - node_modules/verror/**
+    - node_modules/core-util-is/**
+    - node_modules/json-schema/**
+
+  exclude:
+    - node_modules/**
+    - .*/**
+
 plugins:
   - serverless-offline
