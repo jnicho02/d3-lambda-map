@@ -1,0 +1,27 @@
+{
+  "name": "d3-lambda-map",
+  "version": "1.0.0",
+  "description": "A d3.js map served by AWS Lambda",
+  "main": "handler.js",
+  "dependencies": {
+    "d3-node": "^2.2.0",
+    "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "serverless": "^1.50.1",
+    "serverless-offline": "^5.10.1"
+  },
+  "scripts": {
+    "test": "serverless offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnicho02/d3-lambda-map.git"
+  },
+  "author": "Jez Nicholson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnicho02/d3-lambda-map/issues"
+  },
+  "homepage": "https://github.com/jnicho02/d3-lambda-map#readme"
+}

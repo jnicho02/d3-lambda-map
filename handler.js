@@ -9,7 +9,7 @@ module.exports.plot = (event, context, callback) => {
 
   // adapted from: https://bl.ocks.org/mbostock/6406992
   var options = {
-    svgStyles:'.mesh{fill: none;stroke: #333;stroke-width: .5px;stroke-linejoin: round;}',
+    styles:'.mesh{fill: none;stroke: #333;stroke-width: .5px;stroke-linejoin: round;}',
     d3Module: d3
   }
   var d3n = new D3Node(options)
